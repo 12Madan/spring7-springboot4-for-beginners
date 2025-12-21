@@ -4,7 +4,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Student {
-    private int id;
+    private Integer id;
     private String firstName;
     private String lastName;
 
@@ -12,17 +12,17 @@ public class Student {
 
     }
 
-    public Student(int id, String firstName, String lastName) {
+    public Student(Integer id, String firstName, String lastName) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
