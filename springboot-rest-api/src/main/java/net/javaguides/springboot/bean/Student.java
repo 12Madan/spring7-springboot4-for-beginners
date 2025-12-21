@@ -1,8 +1,5 @@
 package net.javaguides.springboot.bean;
 
-import org.springframework.stereotype.Component;
-
-@Component
 public class Student {
     private Integer id;
     private String firstName;
