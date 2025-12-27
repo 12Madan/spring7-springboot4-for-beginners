@@ -1,6 +1,7 @@
 package net.javaguides.sms.entity;
 
 import jakarta.persistence.*;
+import lombok.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,6 +20,5 @@ public class Student {
     private Long id;
     private String firstName;
     private String lastName;
-    @Column(nullable = false, unique = true)
     private String email;
 }
